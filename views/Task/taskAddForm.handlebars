@@ -1,0 +1,34 @@
+    <h2>Add Item</h2>
+    
+    <form method="POST" action="/task/add" enctype="multipart/form-data">
+
+        <label>Name</label>
+        <input type="text" name="name" id="name"> <br><br>
+
+        <label>Description</label>
+        <textarea id="description" name="description"></textarea><br><br>
+
+        <label>Category</label>
+        <input type="text" name="category" id="category"> <br><br>
+
+        <label>Quantity</label>
+        <input type="text" name="quantity" id="quantity"> <br><br>
+
+        <label>Price</label>
+        <input type="text" name="price" id="price"> <br><br>
+
+        <label>Picture</label>
+        <input type="file" id="picture" name="picture">    <br><br>
+
+        <label>Status</label>
+        <select name="status">
+            <option value="best">Best</option>
+            <option value="notbest">Not Best</option>
+            
+        </select>
+        <br><br>
+
+        <input type="submit" value="Add Task">
+
+    </form>
+
